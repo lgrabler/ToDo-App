@@ -8,3 +8,5 @@
     2. Webpack & Webpack CLI: `npm install --save-dev webpack webpack-cli webpack-dev-server` and new file 'webpack.config.js'
     3. Babel & seine Presets/Plugins: `npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader` and new file '.babelrc'
     4. CSS/SCSS: `npm install --save-dev style-loader css-loader sass-loader node-sass`
+- Create a project structure: `mkdir src` `touch src/index.js src/App.js`
+- Create a new file in roots: index.html
