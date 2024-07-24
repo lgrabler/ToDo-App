@@ -1,13 +1,30 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "commonjs",
-      "rootDir": "./src",
-      "outDir": "./dist",
-      "strict": true,
-      "esModuleInterop": true
-    },
-    "include": ["src/**/*.ts"],
-    "exclude": ["node_modules"]
-  }
-  
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "esnext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

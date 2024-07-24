@@ -1,3 +1,4 @@
+// This file is used to configure Babel. Babel is a tool that converts your JavaScript code into a version of JavaScript that will run in any browser. This is useful because different browsers support different versions of JavaScript. Babel will convert your code into a version that will work in all browsers.
 {
     "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
